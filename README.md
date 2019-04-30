@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+[WAP-Labs](https://lamichhanebabita.github.io/WAP-Labs/Labs/lab1/index.html)
+
 You can use the [editor on GitHub](https://github.com/lamichhaneBabita/WAP-Labs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
