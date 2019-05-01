@@ -1,23 +1,21 @@
 ﻿body {
-    margin: auto;
-    max-width: 1024px;
-    background-color: black;
+    
+    /*max-width: 1024px; */
+    background-image: url("silverware.jpg");
     font-size: 11pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
-    padding-left:1px;
-    
-    
+    padding-left: 1px;
 }
 #pic{
     text-align:left;
 }
-#mainarea {
-    /* margin: auto; */
+/* #mainarea {
+    /* margin: auto; 
     background-image: url("silverware.jpg");
     background-repeat: repeat;
     overflow: auto;
-}
+} */
 h1 {
     color: #A4A400;
     background-color: #F0F0F0;
