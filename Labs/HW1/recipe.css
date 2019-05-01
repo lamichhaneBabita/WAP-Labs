@@ -5,7 +5,7 @@
     font-size: 11pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
-    padding-left: 1px;
+  
 }
 #pic{
     text-align:left;
@@ -16,23 +16,29 @@
     background-repeat: repeat;
     overflow: auto;
 } */
-h1 {
+.headTitle {
     color: #A4A400;
-    background-color: #F0F0F0;
     font-family: 'Lucida Sans Unicode';
-    text-align: left;
+    text-align: center;
     font-size: 22pt;
     text-decoration: underline;
     letter-spacing: 0.25em;
 }
-h2 {
+.headstyle {
+    background-color: #F0F0F0;
+    
+}
+.heading2Title {
     color: #a4a400;
-    background-color: #f0f0f0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22pt;
+    font-size: 18pt;
     font-weight: bold;
     text-decoration-line: underline;
     text-align: left;
+    letter-spacing: 0.25em;
+}
+.headstyle2 {
+    background-color: #F0F0F0;
 }
 abbr {
     text-decoration-line: underline;
