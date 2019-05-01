@@ -51,7 +51,7 @@ abbr {
     font-size: 22pt;
 }
 .style{
-    list-style-image:url("pie_icon.GIF");
+    list-style-image:url("pie_icon.gif");
 }
 ul{
     list-style-type:none;    
