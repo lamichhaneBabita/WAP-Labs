@@ -1,0 +1,102 @@
+* {
+    font-size: 10pt;
+    font-family: "Verdana", "Geneva", sans-serif;
+}
+body {
+    background-color: white;
+    padding-left: 1em;
+}
+body>form {
+    width: 38em;
+
+    margin:auto;
+}
+fieldset strong,
+ul strong,
+fieldset label.left,
+fieldset .column {
+    float: left;
+    width: 11em;
+}
+input[type="submit"] {
+    background-color: aquamarine;
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 8px;
+}
+strong{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+legend {
+    background-color: white;
+    border: 3px outset lightpink;
+    padding: 0.2em;
+    text-align: center;
+}
+fieldset {
+    background-color: azure;
+    height: 19em;
+    border: 3px outset lightblue;
+    border-radius: 12px;
+}
+.check{
+   color: darkred;
+
+}
+input[type="text"]{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+input[type="number"]{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 7.5em;
+    hight:10px;
+
+}
+select {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 7.5em;
+
+}
+input[type="checkbox"] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+
+
+}
+ul {
+    list-style-type: none;
+    padding-left: 0em;
+}
+#heading {
+    margin-top: 0em;
+    font-weight: bold;
+    color: blue;
+    font-size: 25pt;
+    text-align: center;
+    text-shadow: 4px 4px darkred;
+    opacity: 0.20;
+    margin-bottom:1em;
+}
+form{}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+ul li a img {
+    vertical-align: middle;
+}
+
+footer {
+    font-size: x-small;
+    clear: both;
+}

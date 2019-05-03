@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="grade.css" type="text/css" rel="stylesheet" />
+    <link rel="icon" href="pictures/grade.png" type="image/x-icon">
+    <title>Student's Grade</title>
+</head>
+<body>
+    <header>
+    <div id="heading">Welcome to the Students Grade Information Page.</div>
+        <h2>(Maharishi University Of Management)<br/> 1000 N 4TH Street<br/> Fairfield, Iowa. </h2>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Student's Grades:</legend>
+           <strong>Student Name:</strong> <input type="text" name="sName" value="Name" /><br/>
+            <strong>Student ID:</strong><input type="number" min="100000" max="999999" id="sId" name="Id" /><br/>
+            <strong>Grade Type:</strong><select class="option"><option >Midterm</option><option>Final</option><option>Assignment</option><option>Project</option></select><br/>
+            <strong>Student's Entry:</strong> <label><input type="radio" name="cc" value="Spring" />Spring</label><label> <input type="radio" name="cc" value="Fall" />Fall</label><label><input type="radio" name="cc" value="Winter" />Winter</label><label><input type="radio" name="cc" value="Summer" />Summer</label><br/>
+            <span class="check"><input type="checkbox" name="youAreSame"/>Ckecked if your given name and Id is correct.</span><br/>
+            <input type="submit" value="Get Grades!">
+        </fieldset>
+    </form>
+    <footer>
+        <hr />
+
+        <ul>
+            <li>
+
+                <a href="../lab1/index.html" > <img src="pictures/back.gif" alt="icon" />
+                    Back to front page.
+                </a>
+            </li>
+        </ul>
+
+        <a href="https://webster.cs.washington.edu/validate-html.php">
+            <img src="pictures/w3c-html5.png" alt="Valid HTML" />
+        </a>
+        <a href="https://webster.cs.washington.edu/validate-css.php">
+            <img src="pictures/w3c-css.png" alt="Valid CSS" />
+        </a>
+    </footer>
+
+
+</body>
+</html>
