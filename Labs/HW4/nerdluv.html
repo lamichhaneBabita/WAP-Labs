@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<!-- CSE 190 M Homework 4 (NerdLuv) -->
+	<!-- shared page top HTML -->
+
+	<head>
+		<title>NerdLuv</title>
+
+		<meta charset="utf-8" />
+
+		<!-- instructor-provided CSS and JavaScript links; do not modify -->
+		<link href="images/heart.gif" type="image/gif" rel="shortcut icon" />
+		<link href="nerdluv.css" type="text/css" rel="stylesheet" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script src="provided.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<header>
+			<img src="images/nerdluv.png" alt="banner logo" /> <br />
+			where meek geeks meet
+		</header>
+		<form>
+		<fieldset>
+			<legend>New User Signup:</legend>
+
+			<strong>Name:</strong><input class="height" type="text" name = "name"/><br/>
+			<strong>Gender:</strong><label><input class="height" type="radio" name="cc"/> Male</label> <label><input type="radio" name="cc" checked />Female </label><br/>
+			<strong>Age:</strong><input class="match height" type="number" name="age" min="0" max="99"/><br/>
+			<strong>Personality type:</strong><input class="short match height" type="text" name="pt" />(<span class="colorChange"> Don't know your type?</span>)
+			<strong>Favorite OS:</strong><select><option selected>Windows</option> <option>Mac</option></select> <br/>
+			<strong>Seeking age:</strong><input class="match height" type="number" name="sa" placeholder="min" min="0" max="99"> to <input class="match" type="number" name="sa" placeholder="max" min="0" max="99"><br/>
+			<input type="submit" value="Sign Up">
+
+		</fieldset>
+		</form>
+		<footer>
+			<hr />
+			<p>
+				Results and page (C) Copyright NerdLuv Inc.
+			</p>
+
+			<ul>
+				<li>
+					<a href="index.php">
+						<img src="images/back.gif" alt="icon" />
+						Back to front page
+					</a>
+				</li>
+			</ul>
+
+			<a href="https://webster.cs.washington.edu/validate-html.php">
+				<img src="images/w3c-html5.png" alt="Valid HTML" />
+			</a>
+			<a href="https://webster.cs.washington.edu/validate-css.php">
+				<img src="images/w3c-css.png" alt="Valid CSS" />
+			</a>
+		</footer>
+	</body>
+</html>

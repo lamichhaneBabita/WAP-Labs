@@ -1,0 +1,127 @@
+/*
+CSE 190 M, Homework 4: NerdLuv
+You should link to this provided stylesheet from all of your pages.
+You should not need to modify this file.  Your pages should work with it as-is.
+*/
+
+* {
+	font-size: 10pt;
+	font-family: "Verdana", "Geneva", sans-serif;
+}
+
+a {
+	color: #F44;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #FFA;
+}
+
+a img {
+	border: none;
+}
+
+body {
+	background-color: white;
+	padding-left: 1em;
+}
+
+
+body > div, form {
+	overflow: hidden;
+	width: 35em;
+}
+
+.short,
+input[type="number"]{
+	width: 4em;
+	margin-bottom: 2px;
+}
+input[type="text"]{
+	margin-top: 5px;
+}
+
+div {
+	overflow: hidden;
+}
+
+/* form styles */
+fieldset {
+	background-color: #E0E0FF;
+	border: 2px outset gray;
+	border-radius: 10px;
+}
+
+/* the bold text labels to the left of each form field */
+fieldset strong,
+ul strong,
+fieldset label.left,
+fieldset .column {
+	float: left;
+	width: 11em;
+}
+
+
+h1 {
+	margin-top: 0em;
+}
+
+header {
+	margin-bottom: 2em;
+}
+
+input[type="submit"] {
+	background-color: #FAA;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+legend {
+	background-color: white;
+	border: 2px outset gray;
+	padding: 0.2em;
+}
+.colorChange{
+	color: #FAA;
+	font-weight: bold;
+}
+.match{
+	margin-bottom: 0.75em;
+	margin-top: 0.25em;
+}
+
+
+.match img {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 2em;
+}
+
+.match p {
+	background-color: #E0E0FF;
+	clear: left;
+}
+input[type="text"]{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.match ul {
+	padding-left: 160px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0em;
+}
+
+ul li a img {
+	vertical-align: middle;
+}
+
+footer {
+	font-size: x-small;
+	clear: both;
+}
