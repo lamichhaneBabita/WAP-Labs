@@ -13,7 +13,7 @@ public class QuizServlet extends HttpServlet {
         private Quiz quiz = new Quiz();
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-            genQuizPage(quiz, resp.getWriter(),"1",false,"");
+            genQuizPage(quiz, resp.getWriter(),"3, 1, 4, 1, 5",false,"");
         }
 
         @Override
@@ -29,6 +29,10 @@ public class QuizServlet extends HttpServlet {
             }
 
             genQuizPage(quiz, resp.getWriter(), quiz.getCurrentQuestion(),error, answer);
+           if(quiz.quesList.size()==5) {
+               genQuizOverPage(resp.getWriter());
+
+           }
         }
 
         private void genQuizPage(Quiz sessQuiz, PrintWriter out, String currQuest, boolean error, String answer) {

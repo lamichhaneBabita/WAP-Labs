@@ -7,19 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../QuizServlet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/QuizServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuizServlet/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/artifacts/ServletQuiz_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletQuiz/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/QuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizServlet/src/main/java/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizServlet/src/main/java/QuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/QuizServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizServlet/target/classes/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/target/classes/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuizServlet/target/classes/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/target/classes/QuizServlet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

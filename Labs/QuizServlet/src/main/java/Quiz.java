@@ -30,17 +30,17 @@ public class Quiz {
         return  false;
     }
 
-    public String getHint(int currentPos){
-        return  answerList.get(currentPos);
+//    public String getHint(int currentPos){
+//        return  answerList.get(currentPos);
+//
+//    }
+//    public int getNumQuestions(){
+//        return currentPos;
+//    }
 
-    }
-    public int getNumQuestions(){
-        return currentPos;
-    }
-
-    public int getCurrentQuestionIndex(){
-        return currentPos;
-    }
+//    public int getCurrentQuestionIndex(){
+//        return currentPos;
+//    }
 
     public int scoreAnswer(){
         currentPos++;
