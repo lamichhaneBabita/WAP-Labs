@@ -70,7 +70,7 @@ public class QuizServlet extends HttpServlet {
             out.print("<title>NumberQuiz is over</title> ");
             out.print("</head> ");
             out.print("<body> ");
-            out.print("Your current Score is: "+ sessQuiz.getNumberCorrect() + "</br></br>");
+            out.print("Your Current Score is: "+ sessQuiz.getNumberCorrect() + "</br></br>");
             out.print("<p style='color:red'>The number quiz is over!</p></body> ");
             out.print("</html> ");
         }

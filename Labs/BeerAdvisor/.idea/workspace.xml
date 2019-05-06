@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/out/artifacts/QuizServlet_war_exploded/WEB-INF/classes/QuizServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizServlet/src/main/java/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/Quiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuizServlet/src/main/java/QuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/QuizServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizServlet/target/classes/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/target/classes/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizServlet/target/classes/QuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizServlet/target/classes/QuizServlet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -252,12 +247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556984258605</updated>
       <workItem from="1556984262532" duration="3035000" />
-      <workItem from="1557118185714" duration="1647000" />
+      <workItem from="1557118185714" duration="1748000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4682000" />
+    <option name="totallyTimeSpent" value="4783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
