@@ -7,8 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../StateManagementStateDemo/src/main/java/StateMaintainingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StateManagementStateDemo/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuizServlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuizServlet/src/main/java/QuizServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuizServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/artifacts/ServletQuiz_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletQuiz/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,12 +30,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="35" selection-start-line="10" selection-start-column="3" selection-end-line="35" />
+            <state relative-caret-position="410">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="33" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -41,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BeerSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="153">
               <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -106,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,12 +150,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557095437988" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557118001445" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -247,18 +258,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556984258605</updated>
-      <workItem from="1556984262532" duration="2812000" />
+      <workItem from="1556984262532" duration="3035000" />
+      <workItem from="1557118185714" duration="1387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2812000" />
+    <option name="totallyTimeSpent" value="4422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.093465045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0949848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" weight="0.32405892" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -297,10 +309,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="410">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -313,7 +325,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BeerSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="153">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -321,10 +333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="35" selection-start-line="10" selection-start-column="3" selection-end-line="35" />
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
