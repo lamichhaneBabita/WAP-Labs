@@ -27,12 +27,14 @@ public class QuizServlet extends HttpServlet {
             }else{
                 error=true;
             }
+            if(quiz.getCurrentQuestionIndex()>=5){
+//                PrintWriter out = resp.getWriter();
+//                out.println("your current score is: ");
+              genQuizOverPage( quiz,resp.getWriter());
+            }else {
+                genQuizPage(quiz, resp.getWriter(), quiz.getCurrentQuestion(), error, answer);
+            }
 
-            genQuizPage(quiz, resp.getWriter(), quiz.getCurrentQuestion(),error, answer);
-           if(quiz.quesList.size()==5) {
-               genQuizOverPage(resp.getWriter());
-
-           }
         }
 
         private void genQuizPage(Quiz sessQuiz, PrintWriter out, String currQuest, boolean error, String answer) {
@@ -61,12 +63,14 @@ public class QuizServlet extends HttpServlet {
             out.print("</body></html>");
         }
 
-        private void genQuizOverPage(PrintWriter out) {
+        private void genQuizOverPage(Quiz sessQuiz, PrintWriter out ) {
+
             out.print("<html> ");
             out.print("<head >");
             out.print("<title>NumberQuiz is over</title> ");
             out.print("</head> ");
             out.print("<body> ");
+            out.print("Your current Score is: "+ sessQuiz.getNumberCorrect() + "</br></br>");
             out.print("<p style='color:red'>The number quiz is over!</p></body> ");
             out.print("</html> ");
         }
