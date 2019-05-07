@@ -41,8 +41,6 @@ public class JSPVersionQuizServlet extends HttpServlet {
             }
 
         }
-
-
         RequestDispatcher dispatcher;
 
 
@@ -58,7 +56,7 @@ public class JSPVersionQuizServlet extends HttpServlet {
         request.setAttribute("error", error);
         request.setAttribute("answer", answer);
 
-        if (sessQuiz.getNumberCorrect() < sessQuiz.getNumQuestions())
+        if (sessQuiz.getCurrentQuestionIndex() <=5)
             dispatcher = request.getRequestDispatcher("quizpage.jsp");
         else
             dispatcher = request.getRequestDispatcher("quizoverpage.jsp");
