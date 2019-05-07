@@ -6,7 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="" />
+    <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="427">
+              <caret line="34" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -92,7 +98,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="673" />
     <option name="width" value="694" />
     <option name="height" value="735" />
@@ -245,15 +251,15 @@
       <option name="presentableId" value="Default" />
       <updated>1556984258605</updated>
       <workItem from="1556984262532" duration="3035000" />
-      <workItem from="1557118185714" duration="3241000" />
+      <workItem from="1557118185714" duration="4521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6276000" />
+    <option name="totallyTimeSpent" value="7556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <frame x="673" y="0" width="694" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.0949848" />
@@ -356,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="427">
+          <caret line="34" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
