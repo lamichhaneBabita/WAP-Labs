@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSPDemo/src/main/java/ChooseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPDemo/src/main/java/JSPIntroServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPDemo/web/Choose.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPDemo/web/Hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPDemo/web/PostMessage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPDemo/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ImprovedCalculator.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleCalculator.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSP Quiz/JSPIntroQuiz.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP Quiz/JSPIntroQuiz.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
