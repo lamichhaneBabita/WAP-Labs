@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import  java.lang.Throwable;
 
-@WebServlet("/jspQuiz")
+//@WebServlet("/jspQuiz")
 
 public class JSPVersionQuizServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

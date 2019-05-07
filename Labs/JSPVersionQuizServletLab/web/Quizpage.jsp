@@ -19,7 +19,7 @@
     </script>
 </head>
 <body>
-<form method='post' action="jspQuiz">
+<form method='post'>
 
     <c:if test="${isValidAge=='N' || isValidAge==null}">
         <input type="text" name="txtAge" value=""/>

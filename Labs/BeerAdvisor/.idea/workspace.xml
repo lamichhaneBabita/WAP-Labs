@@ -7,14 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JSP Quiz/JSPIntroQuiz.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP Quiz/JSPIntroQuiz.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/Quizpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/quizoverpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/quizoverpage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/quizoverpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/quizoverpage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,7 +100,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="673" />
     <option name="width" value="694" />
     <option name="height" value="735" />
