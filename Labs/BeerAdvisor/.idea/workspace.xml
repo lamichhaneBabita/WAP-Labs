@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/Quizpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet Quiz/~$rvlet Quiz.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet Quiz/~WRL2703.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../State Management Quiz/~$ate Management Quiz.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="34" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="478">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -253,15 +249,15 @@
       <option name="presentableId" value="Default" />
       <updated>1556984258605</updated>
       <workItem from="1556984262532" duration="3035000" />
-      <workItem from="1557118185714" duration="4521000" />
+      <workItem from="1557118185714" duration="5119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7556000" />
+    <option name="totallyTimeSpent" value="8154000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="673" y="0" width="694" height="735" extended-state="0" />
+    <frame x="673" y="0" width="694" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.0949848" />
@@ -364,8 +360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="34" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="478">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
