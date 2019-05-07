@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JSP Quiz/JSPIntroQuiz.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../JSP Quiz/JSPIntroQuiz.docx" afterDir="false" />
-    </list>
+    <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
