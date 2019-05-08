@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="234f3fde-d2a7-48b5-959e-7668cdec7731" name="Default Changelist" comment="" />
+    <list default="true" id="234f3fde-d2a7-48b5-959e-7668cdec7731" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/quizpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +37,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,7 +105,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,10 +123,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StateManagementStateDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StateManagementStateDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,16 +242,18 @@
       <option name="presentableId" value="Default" />
       <updated>1557094530749</updated>
       <workItem from="1557094537610" duration="1934000" />
+      <workItem from="1557332035841" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1934000" />
+    <option name="totallyTimeSpent" value="2010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20744681" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21048632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />

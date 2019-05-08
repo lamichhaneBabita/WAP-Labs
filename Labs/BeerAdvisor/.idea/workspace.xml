@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/WEB-INF/tld/jstldemo.tld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSTLDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Label.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/TableServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/TableServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSTLDemo/web/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/web/table.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/quizpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
+            <state relative-caret-position="387">
               <caret line="34" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
@@ -217,12 +218,13 @@
       <updated>1556984258605</updated>
       <workItem from="1556984262532" duration="3035000" />
       <workItem from="1557118185714" duration="5119000" />
-      <workItem from="1557273927397" duration="2754000" />
+      <workItem from="1557273927397" duration="3039000" />
+      <workItem from="1557331965346" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10908000" />
+    <option name="totallyTimeSpent" value="11261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="673" y="0" width="694" height="735" extended-state="0" />
@@ -240,7 +242,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" weight="0.32392028" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -304,7 +306,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="387">
           <caret line="34" column="19" selection-start-line="10" selection-start-column="4" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>

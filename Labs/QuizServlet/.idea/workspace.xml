@@ -7,11 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb6ec2c4-b5ac-4a6c-a906-9a2305a600df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/classes/JSPVersionQuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/out/artifacts/JSPVersionQuizServletLab_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/src/main/java/JSPVersionQuizServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/target/classes/JSPVersionQuizServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/Quizpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/quizpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSPVersionQuizServletLab/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/QuizServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="143">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,17 +261,18 @@
       <updated>1557118368649</updated>
       <workItem from="1557118374437" duration="10841000" />
       <workItem from="1557201665535" duration="1267000" />
+      <workItem from="1557330973223" duration="244000" />
+      <workItem from="1557331782891" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12108000" />
+    <option name="totallyTimeSpent" value="12454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0949848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.098024316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,7 +284,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" weight="0.21931261" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" weight="0.48608837" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -339,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QuizServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="143">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

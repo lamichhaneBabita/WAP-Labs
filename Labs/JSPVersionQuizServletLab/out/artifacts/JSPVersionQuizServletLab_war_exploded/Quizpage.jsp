@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Babita
-  Date: 5/6/2019
-  Time: 11:13 PM
+  Date: 5/7/2019
+  Time: 2:17 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -26,7 +26,7 @@
         <c:if test="${isValidAge=='N'}">
             <label style="color: red">Invalid Age.</label>
         </c:if>
-        <p><input type='submit' value='Submit Age'/></p>
+        <p><input type='submit' value='Submit'/></p>
     </c:if>
 
     <c:if test="${isValidAge=='Y'}">
@@ -42,7 +42,7 @@
 
         <c:if test="${error && answer!=null}">
 
-            <p style='color:red'>Your last answer was not correct! Please try again</p>
+            <p style='color:red'>Your given answer is not correct! Please try again</p>
 
         </c:if>
 
