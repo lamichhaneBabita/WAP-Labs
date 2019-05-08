@@ -2,6 +2,7 @@ package net.mumde.cs545;
 import java.io.IOException;
 import javax.servlet.jsp.*;
 import javax.servlet.jsp.tagext.*;
+
 public class Label extends SimpleTagSupport
 {
     String foreColor;
@@ -11,8 +12,7 @@ public class Label extends SimpleTagSupport
     {
         JspWriter out = getJspContext().getOut();
         if (foreColor != null)
-            out.write(String.format("<span
-                    style='color:%s'>%s</span>", foreColor, text));
+            out.write(String.format("<span style='color:%s'>%s</span>", foreColor, text));
         else
             out.write(String.format("<span>%s</span>", text));
     }

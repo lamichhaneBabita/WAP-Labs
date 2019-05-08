@@ -1,0 +1,20 @@
+
+
+
+
+    <tag>
+    <description>Generates a label</description>
+    <name>Label</name>
+    <tag-class>Label</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+        <name>foreColor</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+        <name>text</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+    </attribute>
+</tag>

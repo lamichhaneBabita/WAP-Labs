@@ -6,23 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd8b7b7b-24f9-4815-a227-fff1c30ac0b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/BeerExpert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tldhandler/CurrentDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web/BeerSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tld/CurrentDT.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/customTag.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/results.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/TableServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/label.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/table.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="dd8b7b7b-24f9-4815-a227-fff1c30ac0b7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/results.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="521">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
@@ -252,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557294796966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557294880921" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -357,12 +341,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557293155616</updated>
-      <workItem from="1557293170275" duration="1593000" />
+      <workItem from="1557293170275" duration="2254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1593000" />
+    <option name="totallyTimeSpent" value="2254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="488" y="0" width="879" height="735" extended-state="0" />
@@ -403,7 +387,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2747253" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2747253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,7 +399,7 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49167928" visible="true" weight="0.32392028" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49167928" visible="true" weight="0.32392028" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -480,6 +464,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -489,15 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/results.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="521">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="41" />
         </state>
       </provider>
     </entry>

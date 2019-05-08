@@ -7,21 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="719e0057-23c8-4e94-8379-1957fafd0333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/src/main/java/com/example/model/BeerExpert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/src/main/java/com/example/tldhandler/CurrentDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/src/main/java/com/example/web/BeerSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/web/WEB-INF/tld/CurrentDT.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/web/customTag.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BeerAdvisorCustomTagLab/web/results.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/TableServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/label.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/table.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSTLDemo/web/WEB-INF/tld/jstldemo.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSTLDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Label.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/Label.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/TableServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/src/main/java/net/mumde/cs545/TableServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSTLDemo/web/table.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JSTLDemo/web/table.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -124,6 +114,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557118001445" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JSTLDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -226,12 +217,12 @@
       <updated>1556984258605</updated>
       <workItem from="1556984262532" duration="3035000" />
       <workItem from="1557118185714" duration="5119000" />
-      <workItem from="1557273927397" duration="2094000" />
+      <workItem from="1557273927397" duration="2754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10248000" />
+    <option name="totallyTimeSpent" value="10908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="673" y="0" width="694" height="735" extended-state="0" />
