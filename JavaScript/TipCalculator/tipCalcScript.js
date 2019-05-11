@@ -1,10 +1,16 @@
+window.onload = function(){
+    document.getElementById("calculateTip").onclick=calculateTip;
+}
 function calculateTip(){
-    var total = 0;
+    
     var subtotal = document.getElementById("subtotal");
-    subtotal.innerHTML = subtotal;
+ subtotal=parseFloat(subtotal.value);
+   // subtotal.innerHTML = subtotal;
     var tip = document.getElementById("tip");
-    tip.innerHTML=tip;
-    total=subtotal+((subtotal*tip)/100);
-    total.innerHTML = '$'+total;
+    tip = parseFloat(tip.value);
+   // tip.innerHTML=tip;
+   var total=document.getElementById("total"); 
+
+    total.innerHTML='$'+ (subtotal+(subtotal*(tip/100)));
     
 }
