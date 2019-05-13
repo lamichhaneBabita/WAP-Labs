@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   
+    <head>
+            <meta charset="utf-8"/>
+        <title>Ascii Animation!</title>        
+   
+        <link href="ascii.css" type="text/css" rel="stylesheet">
+        <script src="ascii.js"></script>
+        <script src="animation.js"></script>
+    </head>
+    <body>
+        <h1>CS472: ASCII Animation Viewer</h1>
+        <div id="controller">
+            <textarea id="txtShowAnimation" cols="80" rows="20"></textarea>
+            <fieldset>
+                <legend>Play Controls:</legend>
+                <input type="button" value="Start" id="btnStart"/>
+                <input type="button" value="Stop" id="btnStop" />
+            </fieldset>
+            <fieldset>
+                <legend>Animation:</legend>
+                <select>
+                    <option>Blank</option>
+                    <option>Custom</option>
+                    <option>Exercise</option>
+                    <option>Juggler</option>
+                    <option>Bike</option>
+                    <option>Dive</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Size:</legend>
+                <select>
+                    <option>Medium</option>
+                    <option>Tiny</option>
+                    <option>Large</option>
+                    <option>ExtraLarge</option>
+                    <option>Small</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Speed:</legend>
+                <input type="checkbox" />Turbo
+            </fieldset>
+        </div>
+    </body>
+</html>
