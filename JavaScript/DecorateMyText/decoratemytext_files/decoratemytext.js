@@ -36,7 +36,7 @@ function setBiggerDecoration(){
         timerId=null;
     }
     else{
-       timerId = setInterval(biggerDecoration,2000)
+       timerId = setInterval(biggerDecoration,500)
     }
 
 }
