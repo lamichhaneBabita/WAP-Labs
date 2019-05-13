@@ -13,4 +13,6 @@ function calculateTip(){
 
     total.innerHTML='$'+ (subtotal+(subtotal*(tip/100)));
     
+    
 }
+
