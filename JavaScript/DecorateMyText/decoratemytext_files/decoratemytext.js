@@ -4,7 +4,7 @@ let textarea;
 let timerId = null;
 window.onload = function(){
     textarea = document.getElementById("text");
-    document.getElementById("biggerDecoration").onclick=setBiggerDecoration;
+    document.getElementById("biggerdecoration").onclick=setBiggerDecoration;
     document.getElementById("checkBox").onchange = changeBling;
 };
 
@@ -40,7 +40,5 @@ function setBiggerDecoration(){
     }
 
 }
-
-
 
 })();
