@@ -1,47 +1,47 @@
 <!DOCTYPE html>
-<html>
-   
-    <head>
-            <meta charset="utf-8"/>
-        <title>Ascii Animation!</title>        
-   
-        <link href="ascii.css" type="text/css" rel="stylesheet">
-        <script src="ascii.js"></script>
-        <script src="animation.js"></script>
-    </head>
+<html lang="en">
+<head>
+	<title>TODO supply a title</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="animation.js" type="text/javascript"></script>
+	<script src="ascii.js" type="text/javascript"></script>
+	<link href="ascii.css" rel="stylesheet" type="text/css"/>
+</head>
     <body>
         <h1>CS472: ASCII Animation Viewer</h1>
         <div id="controller">
             <textarea id="txtShowAnimation" cols="80" rows="20"></textarea>
             <fieldset>
                 <legend>Play Controls:</legend>
-                <input type="button" value="Start" id="btnStart"/>
-                <input type="button" value="Stop" id="btnStop" />
+                <input type="button" value="start" id="btnStart"/>
+                <input type="button" value="stop" id="btnStop" disabled/>
             </fieldset>
             <fieldset>
                 <legend>Animation:</legend>
-                <select>
-                    <option>Blank</option>
-                    <option>Custom</option>
-                    <option>Exercise</option>
-                    <option>Juggler</option>
-                    <option>Bike</option>
-                    <option>Dive</option>
+                <select id="slectAnimation">
+                    <option >Blank</option>
+                    <option >Custom</option>
+                    <option >Exercise</option>
+                    <option >Juggler</option>
+                    <option >Bike</option>
+                    <option value="32">Dive</option>
                 </select>
             </fieldset>
             <fieldset>
                 <legend>Size:</legend>
-                <select>
-                    <option>Medium</option>
-                    <option>Tiny</option>
-                    <option>Large</option>
-                    <option>ExtraLarge</option>
-                    <option>Small</option>
+                <select id="selectFont">
+                    <option value="7px">Tiny</option>
+                    <option value="10px">Small</option>
+                    <option value="12px">Medium</option>
+                    <option value="16px">Large</option>
+                    <option value="24px">Extra Large</option>
+                    <option value="32px">XXL</option>
                 </select>
             </fieldset>
             <fieldset>
                 <legend>Speed:</legend>
-                <input type="checkbox" />Turbo
+                <input id = "checkSpeed" type="checkbox" />Turbo
             </fieldset>
         </div>
     </body>
