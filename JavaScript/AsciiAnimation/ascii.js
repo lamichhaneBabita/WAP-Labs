@@ -1,5 +1,5 @@
 (function(){
-    
+    "use strict";
  let animation =null;   
 let btnStart;
 let btnStop;
