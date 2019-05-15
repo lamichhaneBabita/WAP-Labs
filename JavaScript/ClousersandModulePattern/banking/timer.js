@@ -1,6 +1,3 @@
-
- 
-
 var f = (function(){
     return function(){
         setInterval(() => {
