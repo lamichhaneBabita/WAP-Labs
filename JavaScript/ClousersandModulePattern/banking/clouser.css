@@ -1,0 +1,18 @@
+div{
+   background-color: aquamarine;
+    text-align: center;
+}
+input{
+    font-weight:bold;
+    font-size: 11pt;
+    margin: 3px;
+}
+h1{
+    text-align: center;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 13px;
+    font-weight: bold;
+}
