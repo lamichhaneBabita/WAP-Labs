@@ -1,8 +1,24 @@
-var f = (function(){
-    return function(){
-        setInterval(() => {
-            console.log("Rudy")
-        }, 1000);
-    };
+// var f = (function(){
+//     return function(){
+//         setInterval(() => {
+//             document.getElementById("display").innerHTML="Rudy";
+//         }, 1000);
+//     };
+// })();
+
+
+(function(){
+    var timr = (function(){
+    
+    function alertTimer(){
+        setInterval(function(){
+           console.log('Ruddy');
+        },1000);
+    
+    }
+    return alertTimer;
 })();
-document.getElementById("timerset").onclick = f();
+window.onload = function () {
+document.getElementById("timerset").onclick = timr;
+};
+})();
