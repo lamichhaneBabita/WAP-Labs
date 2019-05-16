@@ -2,6 +2,12 @@ div{
    /* background-color: aquamarine; */
     text-align: center;
 }
+fieldset{
+    width: 41px;
+    margin: auto;
+    background-color: aquamarine;
+    font-family: "Century Gothic",sans-serif;
+}
 input{
     font-weight:bold;
     font-size: 11pt;
@@ -17,11 +23,6 @@ body{
 }
 .input{
     margin: 5px;
-    font-family: "Century Gothic",sans-serif;
+   
     
-}
-fieldset{
-    width: 41px;
-    margin: auto;
-    background-color: aquamarine;
 }
