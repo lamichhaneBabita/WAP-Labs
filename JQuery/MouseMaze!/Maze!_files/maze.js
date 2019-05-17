@@ -1,6 +1,6 @@
-(function(){
+(function () {
     "use strict";
-    $(function(){
+    $(function () {
         $("#start").click(reset);
         $(".boundary").mouseover(turnRed);
         $("#gameArea").mouseleave(cheating);
@@ -32,7 +32,7 @@
         gameComplete=true;
     }
     function lost(){
-        $("#status").html("Sorry, You Loose!! :( please Click S to plain Again." ).css("color", "Red");
+        $("#status").html("Sorry, You Loose!! :( please Click S to play Again." ).css("color", "Red");
         gameComplete = false;
 
     }
@@ -44,4 +44,4 @@
     }
     
 
-});
+})();
