@@ -10,7 +10,7 @@
     let gameComplete = false;
 
     function reset(){
-        $(".boundary").removeClass("youLoose");
+        $(".boundary").removeClass("youlose");
         disqualified=false;
         gameComplete = false;
         $("#status").html("Click the S to begin.").css("color", "black");
@@ -40,10 +40,11 @@
     }
 
     function cheating(){
-       if(!gameComplete){
-           turnRed();
-           lost();
-       }
+        if (!gameComplete) {
+            turnRed();
+            lost();
+        }
+
     }
     
 
