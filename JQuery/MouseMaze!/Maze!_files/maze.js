@@ -31,11 +31,14 @@
         $("#status").css("color", "Green").html("Congratulations, You Won!! Click S to play Again.");
         gameComplete=true;
     }
-    function lost(){
-        $("#status").html("Sorry, You Loose!! :( please Click S to play Again." ).css("color", "Red");
-        gameComplete = false;
-
+    function lost() {
+        $("#status").html("You lose!! :(   Click 'S' to play again");
+        $("#status").css({
+            "color": "red",
+        });
+        //document.getElementById("status").innerHTML = "You Lose !!";
     }
+
     function cheating(){
        if(!gameComplete){
            turnRed();
