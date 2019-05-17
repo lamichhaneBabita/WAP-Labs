@@ -16,8 +16,8 @@
         $("#status").html("Click the S to begin.").css("color", "black");
     }
     function turnRed(){
-        $(".boundary").addClass("YouLoose");
-        disqualified =true;
+        $(".boundary").addClass("youlose");
+        disqualified = true;
     }
 
     function result(){
@@ -36,7 +36,7 @@
         $("#status").css({
             "color": "red",
         });
-        //document.getElementById("status").innerHTML = "You Lose !!";
+        
     }
 
     function cheating(){
