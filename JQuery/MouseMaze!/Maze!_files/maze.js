@@ -6,6 +6,7 @@
         $("#gameArea").mouseleave(cheating);
         $("#end").mouseover(result);
     });
+    
     let disqualified = false;
     let gameComplete = false;
 
@@ -15,6 +16,7 @@
         gameComplete = false;
         $("#status").html("Click the S to begin.").css("color", "black");
     }
+
     function turnRed(){
         $(".boundary").addClass("youlose");
         disqualified = true;
@@ -24,13 +26,14 @@
        if(!disqualified)
            won();
           else
-          lost(); 
-       
+          lost();       
     }
+
     function won(){
         $("#status").css("color", "Green").html("Congratulations, You Won!! Click S to play Again.");
         gameComplete=true;
     }
+
     function lost() {
         $("#status").html("You lose!! :(   Click 'S' to play again");
         $("#status").css({
@@ -44,8 +47,6 @@
             turnRed();
             lost();
         }
-
-    }
-    
+    }  
 
 })();
