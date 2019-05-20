@@ -1,15 +1,15 @@
 $(function () {
+    var PUZZLESIZE = 4;
     var empty_row = 3;
-    var empty_col = 3;
-    var PUZZLE_GRID_SIZE = 4;
+    var empty_col = 3;      
     var TILE_ZIZE = 100;
     initial();
 
     function initial() {
         $('#puzzlearea div').each(function (idx, e) {
             // calculate x and y for this piece
-            var x = ((idx % PUZZLE_GRID_SIZE) * TILE_ZIZE);
-            var y = (Math.floor(idx / PUZZLE_GRID_SIZE) * TILE_ZIZE);
+            var x = ((idx % PUZZLESIZE) * TILE_ZIZE);
+            var y = (Math.floor(idx / PUZZLESIZE) * TILE_ZIZE);
 
             $(this).attr('id', "square_" + y / TILE_ZIZE + "_" + x / TILE_ZIZE).addClass('puzzlepiece').css({
                 'left': x + 'px',
