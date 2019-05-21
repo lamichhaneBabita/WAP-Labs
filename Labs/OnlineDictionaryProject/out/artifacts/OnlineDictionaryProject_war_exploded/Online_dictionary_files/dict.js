@@ -21,6 +21,6 @@ function ajaxSuccess(data) {
 }
 
 function ajaxFailure(xhr, status, exception) {
-    $("#result").text("try another word");
+    
    console.log(xhr, status, exception);
 }
