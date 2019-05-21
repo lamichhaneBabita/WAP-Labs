@@ -1,24 +1,7 @@
 $(document).ready(function () {
     $("#lookup").click(function () {
         var text = $("#term").val();
-        // $.ajax({
-        //     url:'./dictServlet',
-        //     type:'POST',
-        //     data:{"word": text},
-        //     dataType:'json',
-        //     success:ajaxSuccess,
-        //     error:ajaxFailure
-        // });
-
-        // $.ajax("./dictServlet",{
-        //     type:'POST',
-        //     data:{"word": text},
-        //     dataType:'json',
-        //     success:ajaxSuccess,
-        //     error:ajaxFailure
-        // });
-
-        $.ajax("./dictServlet",{
+            $.ajax("./dictServlet",{
             type:'POST',
             data:{"word": text},
             dataType:'json'
@@ -28,13 +11,14 @@ $(document).ready(function () {
 })
 
 function ajaxSuccess(data) {
-    var html = '<ol>';
+    var decor = '<ol>';
     for (var i = 0; i < data.length; ++i) {
-        html += '<li>(' + data[i].wordtype + ") :: " + data[i].definition + '</li>';
+        decor += '<li>(' + data[i].wordtype + ") :: " + data[i].definition + '</li>';
     }
-    html += '</ol>';
-    $("#result").html(html);
+    decor += '</ol>';
+    $("#result").html(decor);
 }
-function ajaxFailure(xhr,status,error) {
+function ajaxFailure() {
+    //$("#related").html('<p>'+ OOPS!! This word does not belongs to our database, Try another word..  + '</p>');
     console.log(xhr, status, exception);
 }

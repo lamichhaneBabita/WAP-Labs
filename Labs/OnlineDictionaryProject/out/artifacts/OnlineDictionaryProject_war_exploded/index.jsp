@@ -24,7 +24,7 @@
 
   <div id="controls">
     Term:
-    <input id="term" type="text" value="fnord" autofocus="autofocus">
+    <input id="term" type="text" value="type here" autofocus="autofocus">
     <button id="lookup">Lookup</button>
   </div>
 
