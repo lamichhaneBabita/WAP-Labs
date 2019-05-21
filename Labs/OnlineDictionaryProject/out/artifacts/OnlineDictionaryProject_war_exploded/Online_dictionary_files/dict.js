@@ -1,7 +1,24 @@
 $(document).ready(function () {
     $("#lookup").click(function () {
         var text = $("#term").val();
-            $.ajax("./dictServlet",{
+        // $.ajax({
+        //     url:'./dictServlet',
+        //     type:'POST',
+        //     data:{"word": text},
+        //     dataType:'json',
+        //     success:ajaxSuccess,
+        //     error:ajaxFailure
+        // });
+
+        // $.ajax("./dictServlet",{
+        //     type:'POST',
+        //     data:{"word": text},
+        //     dataType:'json',
+        //     success:ajaxSuccess,
+        //     error:ajaxFailure
+        // });
+
+        $.ajax("./dictServlet",{
             type:'POST',
             data:{"word": text},
             dataType:'json'

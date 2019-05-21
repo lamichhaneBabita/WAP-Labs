@@ -1,74 +1,101 @@
+import com.google.gson.Gson;
+
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
+@WebServlet("/dictServlet")
 public class dictServlet extends HttpServlet {
+    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/entries?serverTimezone=UTC";
+
+
+    static final String USER = "root";
+    static final String PASS = ";Ov_?U+uA4lh";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        resp.setContentType("text/html;charset=UTF-8");
+        resp.getWriter().write("Hello servlet!");
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // JDBC 驱动名及数据库 URL
-        static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-        static final String DB_URL = "jdbc:mysql://localhost:3306/RUNOOB";
 
-        // 数据库的用户名与密码，需要根据自己的设置
-        static final String USER = "root";
-        static final String PASS = ";Ov_?U+uA4lh";
+
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        request.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        PrintWriter out = response.getWriter();
+
+
+        String text = request.getParameter("word");
+
         Connection conn = null;
         Statement stmt = null;
         try{
-            // 注册 JDBC 驱动
-            Class.forName("com.mysql.jdbc.Driver");
+            // register JDBC DRIVER
+            Class.forName(JDBC_DRIVER);
 
-            // 打开链接
-            System.out.println("连接数据库...");
+            // creat a Connection
             conn = DriverManager.getConnection(DB_URL,USER,PASS);
 
-            // 执行查询
-            System.out.println(" 实例化Statement对象...");
+            // run SQL search
             stmt = conn.createStatement();
             String sql;
-            sql = "SELECT id, name, url FROM websites";
+            sql = "SELECT wordtype, definition FROM entries WHERE word=\'" + text +"\'";
             ResultSet rs = stmt.executeQuery(sql);
 
-            // 展开结果集数据库
+            List result = new ArrayList();
+            // runloop ResultData
             while(rs.next()){
-                // 通过字段检索
-                int id  = rs.getInt("id");
-                String name = rs.getString("name");
-                String url = rs.getString("url");
+                // get the data
+                String wordtype = rs.getString("wordtype");
+                String definition = rs.getString("definition");
 
-                // 输出数据
-                System.out.print("ID: " + id);
-                System.out.print(", 站点名称: " + name);
-                System.out.print(", 站点 URL: " + url);
-                System.out.print("\n");
+                // outprint data
+                HashMap<String, String> map = new HashMap<String, String>();
+                map.put("wordtype", wordtype);
+                map.put("definition", definition);
+                result.add(map);
             }
-            // 完成后关闭
+            Gson gson = new Gson();
+            out.print(gson.toJson(result));
+            out.flush();
+            out.close();
+
+            // close
             rs.close();
             stmt.close();
             conn.close();
-        }catch(SQLException se){
-            // 处理 JDBC 错误
+        } catch(SQLException se) {
+            // do the JDBC error
             se.printStackTrace();
-        }catch(Exception e){
-            // 处理 Class.forName 错误
+            out.println(se);
+        } catch(Exception e) {
+            // do the Class.forName error
             e.printStackTrace();
+            out.println(e);
         }finally{
-            // 关闭资源
+            // close all of them
             try{
-                if(stmt!=null) stmt.close();
+                if(stmt!=null)
+                    stmt.close();
             }catch(SQLException se2){
-            }// 什么都不做
+            }
             try{
-                if(conn!=null) conn.close();
+                if(conn!=null)
+                    conn.close();
             }catch(SQLException se){
                 se.printStackTrace();
             }
