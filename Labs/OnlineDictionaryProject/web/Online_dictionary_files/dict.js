@@ -5,8 +5,9 @@ $(document).ready(function () {
             type:'POST',
             data:{"word": text},
             dataType:'json'
+
         }).done(ajaxSuccess)
-            .fail(ajaxFailure);
+          .fail(ajaxFailure);
     });
 })
 
@@ -20,6 +21,6 @@ function ajaxSuccess(data) {
 }
 
 function ajaxFailure(xhr, status, exception) {
-    //$("#related").html('<p>'+ OOPS!! This word does not belongs to our database, Try another word..  + '</p>');
-    console.log(xhr, status, exception);
+    
+   console.log(xhr, status, exception);
 }
