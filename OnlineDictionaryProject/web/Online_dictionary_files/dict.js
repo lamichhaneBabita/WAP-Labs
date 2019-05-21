@@ -11,13 +11,15 @@ $(document).ready(function () {
 })
 
 function ajaxSuccess(data) {
-    var html = '<ol>';
+    var decor = '<ol>';
     for (var i = 0; i < data.length; ++i) {
-        html += '<li>(' + data[i].wordtype + ") :: " + data[i].definition + '</li>';
+        decor += '<li>(' + data[i].wordType + ") :: " + data[i].definition + '</li>';
     }
-    html += '</ol>';
-    $("#result").html(html);
+    decor += '</ol>';
+    $("#result").html(decor);
 }
-function ajaxFailure(xhr,status,error) {
+
+function ajaxFailure(xhr, status, exception) {
+    //$("#related").html('<p>'+ OOPS!! This word does not belongs to our database, Try another word..  + '</p>');
     console.log(xhr, status, exception);
 }

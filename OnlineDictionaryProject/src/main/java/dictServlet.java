@@ -29,8 +29,6 @@ public class dictServlet extends HttpServlet {
 
     @Override
 
-
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         request.setCharacterEncoding("UTF-8");
@@ -43,29 +41,29 @@ public class dictServlet extends HttpServlet {
 
         Connection conn = null;
         Statement stmt = null;
-        try{
+        try {
             // register JDBC DRIVER
             Class.forName(JDBC_DRIVER);
 
-            // creat a Connection
-            conn = DriverManager.getConnection(DB_URL,USER,PASS);
+            // create a Connection
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
             // run SQL search
             stmt = conn.createStatement();
             String sql;
-            sql = "SELECT wordtype, definition FROM entries WHERE word=\'" + text +"\'";
+            sql = "SELECT wordtype, definition FROM entries WHERE word=\'" + text + "\'";
             ResultSet rs = stmt.executeQuery(sql);
 
             List result = new ArrayList();
-            // runloop ResultData
-            while(rs.next()){
+            // run loop ResultData
+            while (rs.next()) {
                 // get the data
-                String wordtype = rs.getString("wordtype");
+                String wordType = rs.getString("wordType");
                 String definition = rs.getString("definition");
 
                 // outprint data
                 HashMap<String, String> map = new HashMap<String, String>();
-                map.put("wordtype", wordtype);
+                map.put("wordType", wordType);
                 map.put("definition", definition);
                 result.add(map);
             }
@@ -78,27 +76,29 @@ public class dictServlet extends HttpServlet {
             rs.close();
             stmt.close();
             conn.close();
-        } catch(SQLException se) {
+        } catch (SQLException se) {
             // do the JDBC error
             se.printStackTrace();
             out.println(se);
-        } catch(Exception e) {
+        } catch (Exception e) {
             // do the Class.forName error
             e.printStackTrace();
             out.println(e);
-        }finally{
+        } finally {
             // close all of them
-            try{
-                if(stmt!=null)
+            try {
+                if (stmt != null)
                     stmt.close();
-            }catch(SQLException se2){
+
+            } catch (SQLException se2) {
             }
-            try{
-                if(conn!=null)
+            try {
+                if (conn != null)
                     conn.close();
-            }catch(SQLException se){
+            } catch (SQLException se) {
                 se.printStackTrace();
             }
         }
     }
 }
+
