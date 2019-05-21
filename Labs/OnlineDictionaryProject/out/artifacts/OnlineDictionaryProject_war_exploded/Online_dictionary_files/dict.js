@@ -13,7 +13,7 @@ $(document).ready(function () {
 function ajaxSuccess(data) {
     var decor = '<ol>';
     for (var i = 0; i < data.length; ++i) {
-        decor += '<li>(' + data[i].wordtype + ") :: " + data[i].definition + '</li>';
+        decor += '<li>(' + data[i].wordType + ") :: " + data[i].definition + '</li>';
     }
     decor += '</ol>';
     $("#result").html(decor);
