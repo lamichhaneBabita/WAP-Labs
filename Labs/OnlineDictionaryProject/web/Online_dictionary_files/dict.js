@@ -21,6 +21,6 @@ function ajaxSuccess(data) {
 }
 
 function ajaxFailure(xhr, status, exception) {
-    
+
    console.log(xhr, status, exception);
 }
